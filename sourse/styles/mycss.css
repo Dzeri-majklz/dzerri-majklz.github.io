@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+* a{
+    text-decoration: none;
+}
+p{
+    color: black;
+}
+body{
+    font-family:  Pattaya,serif;
+    background: linear-gradient(90deg, #ea4343 40%, #5bfd91 90%);
+} 
+.nav-link{
+    color: aqua;
+}
+ 
+.navbar-nav .nav-link.active{
+    color: rgb(3, 114, 114);
+}
+.phone{
+    animation: call 3s ease  1s 5 normal forwards;
+}
+ 
+.navbar-brand img{
+
+    width: 40px;
+}
+.navbar-toggler{
+    background-color: rgb(76, 69, 79);
+}
+/* .card {
+    margin-top:10px ;
+} */
+.row{
+    text-align: center;
+}
+.home{
+    text-decoration: none;
+}
+.fot{
+	 padding: 100px;
+}
+.card{
+
+    background: linear-gradient(45deg, #c1fbda 34%, #fdc6b1 60%);
+ 
+}
+.card a{
+    color: black;
+    text-decoration: none;
+}
+.card img{
+     height: 200px;
+}
+ 
+.text-colum{
+    margin:auto auto;
+}
+.text-footer{
+ 
+    color: rgba(42, 41, 41, 0.833);
+}
+footer{
+ 
+    background: linear-gradient(90deg, #e78c8c 40%, #85efa8 90%);
+}
+
+ 
+
+@media(max-width:755px){
+    .carousel-indicators{
+        display: none;
+    }
+}
+@keyframes call {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 0 50%;
+	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+}
+ 
+ 
+
+ 
